@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/style.css" />
+    <title>Solo Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <div>
+          <h3>HOME</h3>
+        </div>
+        <div class="socre-container">
+          <p class="score-home">22</p>
+        </div>
+        <div class="points">
+          <span class="addone" id="points" onclick="homePlusOne()">+1</span>
+          <span class="addtwo" id="points" onclick="homePlusTwo()">+2</span>
+          <span class="addthree" id="points" onclick="homePlusThree()">+3</span>
+        </div>
+      </div>
+      <div>
+        <h3>GUEST</h3>
+
+        <div class="socre-container">
+          <p class="score-guest"></p>
+        </div>
+
+        <div class="points">
+          <span class="guestaddone" id="points" onclick="guestPlusOne()"
+            >+1</span
+          >
+          <span class="addtwo" id="points" onclick="guestPlusTwo()">+2</span>
+          <span class="addthree" id="points" onclick="guestPlusThree()"
+            >+3</span
+          >
+        </div>
+      </div>
+    </div>
+    <!-- <script src="index.js"></script> -->
+    <script src="/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+                                                
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1b244a;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 1.5px;
+    align-items: center;
+   
+}
+
+.socre-container {
+    background-color: #080001;
+    height: 150px;
+    width: 150px;
+    color: #F94F6D;
+    align-content: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 50px;
+  
+
+}
+
+.points {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+    width: 150px;
+    align-content: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    margin-top: 10px;
+
+    
+}
+
+#points {
+    border: #ad92925d 1px solid;
+    padding: 5px;
+    margin: auto;
+}
