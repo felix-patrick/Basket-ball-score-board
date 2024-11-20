@@ -1,7 +1,6 @@
 let addOneEl = 0
-let addTwoEl = 0
-let addThreeEl = 0
-let guestAddOneEl = 0
+
+let awayAddOneEl = 0
 
 document.querySelector(".score-home").textContent = 0
 document.querySelector(".score-guest").textContent = 0
@@ -22,15 +21,15 @@ function homePlusThree() {
     document.querySelector(".score-home").textContent = addOneEl
 }
 
-function guestPlusOne() {
-    guestAddOneEl += 1 
-    document.querySelector(".score-guest").textContent = guestAddOneEl
+function awayPlusOne() {
+    awayAddOneEl += 1 
+    document.querySelector(".score-guest").textContent = awayAddOneEl
 }
-function guestPlusTwo() {
-    guestAddOneEl += 2 
-    document.querySelector(".score-guest").textContent = guestAddOneEl
+function awayPlusTwo() {
+    awayAddOneEl += 2 
+    document.querySelector(".score-guest").textContent = awayAddOneEl
 }
-function guestPlusThree() {
-    guestAddOneEl += 3 
-    document.querySelector(".score-guest").textContent = guestAddOneEl
+function awayPlusThree() {
+    awayAddOneEl += 3 
+    document.querySelector(".score-guest").textContent = awayAddOneEl
 }
